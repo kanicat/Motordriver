@@ -1,0 +1,237 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:new_md-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74HC14 U?
+U 1 1 5AD313EA
+P 3000 3400
+F 0 "U?" H 3150 3500 50  0000 C CNN
+F 1 "74HC14" H 3200 3300 50  0000 C CNN
+F 2 "" H 3000 3400 50  0000 C CNN
+F 3 "" H 3000 3400 50  0000 C CNN
+	1    3000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U?
+U 2 1 5AD31459
+P 5700 3400
+F 0 "U?" H 5850 3500 50  0000 C CNN
+F 1 "74HC14" H 5900 3300 50  0000 C CNN
+F 2 "" H 5700 3400 50  0000 C CNN
+F 3 "" H 5700 3400 50  0000 C CNN
+	2    5700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U?
+U 3 1 5AD3147E
+P 5700 4500
+F 0 "U?" H 5850 4600 50  0000 C CNN
+F 1 "74HC14" H 5900 4400 50  0000 C CNN
+F 2 "" H 5700 4500 50  0000 C CNN
+F 3 "" H 5700 4500 50  0000 C CNN
+	3    5700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5AE2B14B
+P 4000 3050
+F 0 "D?" H 4000 3150 50  0000 C CNN
+F 1 "D" H 4000 2950 50  0000 C CNN
+F 2 "" H 4000 3050 50  0000 C CNN
+F 3 "" H 4000 3050 50  0000 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U?
+U 4 1 5AE2B4CC
+P 4050 6300
+F 0 "U?" H 4200 6400 50  0000 C CNN
+F 1 "74HC14" H 4250 6200 50  0000 C CNN
+F 2 "" H 4050 6300 50  0000 C CNN
+F 3 "" H 4050 6300 50  0000 C CNN
+	4    4050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U?
+U 5 1 5AE2B525
+P 4050 6800
+F 0 "U?" H 4200 6900 50  0000 C CNN
+F 1 "74HC14" H 4250 6700 50  0000 C CNN
+F 2 "" H 4050 6800 50  0000 C CNN
+F 3 "" H 4050 6800 50  0000 C CNN
+	5    4050 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC14 U?
+U 6 1 5AE2B556
+P 4050 7300
+F 0 "U?" H 4200 7400 50  0000 C CNN
+F 1 "74HC14" H 4250 7200 50  0000 C CNN
+F 2 "" H 4050 7300 50  0000 C CNN
+F 3 "" H 4050 7300 50  0000 C CNN
+	6    4050 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AE2B64A
+P 4350 3650
+F 0 "C?" H 4375 3750 50  0000 L CNN
+F 1 "C" H 4375 3550 50  0000 L CNN
+F 2 "" H 4388 3500 50  0000 C CNN
+F 3 "" H 4350 3650 50  0000 C CNN
+	1    4350 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE2B681
+P 4000 3400
+F 0 "R?" V 4080 3400 50  0000 C CNN
+F 1 "R" V 4000 3400 50  0000 C CNN
+F 2 "" V 3930 3400 50  0000 C CNN
+F 3 "" H 4000 3400 50  0000 C CNN
+	1    4000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE2BAC1
+P 4350 3900
+F 0 "#PWR?" H 4350 3650 50  0001 C CNN
+F 1 "GND" H 4350 3750 50  0000 C CNN
+F 2 "" H 4350 3900 50  0000 C CNN
+F 3 "" H 4350 3900 50  0000 C CNN
+	1    4350 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3800 4350 3900
+Wire Wire Line
+	4150 3400 5250 3400
+Wire Wire Line
+	3850 3400 3450 3400
+Wire Wire Line
+	3850 3050 3650 3050
+Wire Wire Line
+	3650 3050 3650 3400
+Connection ~ 3650 3400
+Wire Wire Line
+	4150 3050 4350 3050
+Wire Wire Line
+	4350 3050 4350 3500
+Connection ~ 4350 3400
+$Comp
+L D D?
+U 1 1 5AE2BE69
+P 4000 4150
+F 0 "D?" H 4000 4250 50  0000 C CNN
+F 1 "D" H 4000 4050 50  0000 C CNN
+F 2 "" H 4000 4150 50  0000 C CNN
+F 3 "" H 4000 4150 50  0000 C CNN
+	1    4000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AE2BE6F
+P 4350 4750
+F 0 "C?" H 4375 4850 50  0000 L CNN
+F 1 "C" H 4375 4650 50  0000 L CNN
+F 2 "" H 4388 4600 50  0000 C CNN
+F 3 "" H 4350 4750 50  0000 C CNN
+	1    4350 4750
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE2BE75
+P 4000 4500
+F 0 "R?" V 4080 4500 50  0000 C CNN
+F 1 "R" V 4000 4500 50  0000 C CNN
+F 2 "" V 3930 4500 50  0000 C CNN
+F 3 "" H 4000 4500 50  0000 C CNN
+	1    4000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AE2BE7B
+P 4350 5000
+F 0 "#PWR?" H 4350 4750 50  0001 C CNN
+F 1 "GND" H 4350 4850 50  0000 C CNN
+F 2 "" H 4350 5000 50  0000 C CNN
+F 3 "" H 4350 5000 50  0000 C CNN
+	1    4350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4900 4350 5000
+Wire Wire Line
+	4150 4500 5250 4500
+Wire Wire Line
+	2250 4500 3850 4500
+Wire Wire Line
+	3850 4150 3650 4150
+Wire Wire Line
+	3650 4150 3650 4500
+Connection ~ 3650 4500
+Wire Wire Line
+	4150 4150 4350 4150
+Wire Wire Line
+	4350 4150 4350 4600
+Connection ~ 4350 4500
+Wire Wire Line
+	1600 3400 2550 3400
+Wire Wire Line
+	2250 3400 2250 4500
+Connection ~ 2250 3400
+$EndSCHEMATC
